@@ -1,8 +1,8 @@
 {
   "ClassName": "Druid",
   "Loot": true,
-  "PathFilename": "_pack\\1-20\\Night elf\\05-08_Teldrassil_Lake Al Ameth - Elementals.json",
-  "PathReduceSteps": true,
+  "Skin": true,
+  "PathFilename": "new.json",
   "CheckTargetGivesExp": true,
   "Pull": {
     "Sequence": [
@@ -77,27 +77,6 @@
         "Name": "Drink",
         "Key": "-",
         "Requirement": "Mana% < 30"
-      }
-    ]
-  },
-  "NPC": {
-    "Sequence": [
-      {
-        "Cost": 19,
-        "Name": "Repair",
-        "Key": "C",
-        "Requirement": "Durability% < 35",
-        "PathFilename": "5_NightElf_Vendor.json"
-      },
-      {
-        "Cost": 19,
-        "Name": "Sell",
-        "Key": "C",
-        "Requirements": [
-          "BagFull",
-          "BagGreyItem"
-        ],
-        "PathFilename": "5_NightElf_Vendor.json"
       }
     ]
   }

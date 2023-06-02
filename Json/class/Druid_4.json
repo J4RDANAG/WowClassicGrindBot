@@ -1,7 +1,7 @@
 {
   "ClassName": "Druid",
   "Loot": true,
-  "PathFilename": "_pack\\1-20\\Night elf\\01-04_Teldrassil_Shadowglen.json",
+  "PathFilename": "1_customD.json",
   "PathReduceSteps": true,
   "Pull": {
     "Sequence": [

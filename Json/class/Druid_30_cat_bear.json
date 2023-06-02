@@ -1,9 +1,10 @@
 {
   "ClassName": "Druid",
   "Loot": true,
+  "Mode": "AttendedGrind",
   "PathFilename": "24-30 Duskwood wolf ravager.json",
-  "PathReduceSteps": true,
-  "PathThereAndBack": false,
+  "PathReduceSteps": false,
+  "PathThereAndBack": true,
   "CheckTargetGivesExp": true,
   "Form": [
     {
@@ -262,27 +263,6 @@
         "Key": "-",
         "Requirement": "Mana% < 40",
         "Form": "None"
-      }
-    ]
-  },
-  "NPC": {
-    "Sequence": [
-      {
-        "Cost": 6,
-        "Name": "Repair",
-        "Key": "C",
-        "Requirement": "Durability% < 35",
-        "PathFilename": "23_Duskwood_Vendor.json"
-      },
-      {
-        "Cost": 6,
-        "Name": "Sell",
-        "Key": "C",
-        "Requirements": [
-          "BagFull",
-          "BagGreyItem"
-        ],
-        "PathFilename": "23_Duskwood_Vendor.json"
       }
     ]
   }

@@ -1,7 +1,6 @@
 {
   "ClassName": "Warlock",
   "Loot": true,
-  //"Mode": "AttendedGrind", //Grind
   "UseMount": true,
   "MountKey": "N0",
   "PathReduceSteps": true,
